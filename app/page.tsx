@@ -1,5 +1,4 @@
 import { Header } from "@/components/layout/Header";
-import { SectionPager } from "@/components/layout/SectionPager";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { BlogSection } from "@/components/sections/BlogSection";
 import { ContactsSection } from "@/components/sections/ContactsSection";
@@ -14,7 +13,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <SectionPager>
+      <main className="min-h-screen">
         <HomeSection />
         <AboutSection />
         <ExperienceSection />
@@ -24,7 +23,7 @@ export default function HomePage() {
         <WritersSection />
         <BlogSection />
         <ContactsSection />
-      </SectionPager>
+      </main>
     </>
   );
 }
