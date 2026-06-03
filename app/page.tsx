@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { SectionSwiper } from "@/components/layout/SectionSwiper";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { BlogSection } from "@/components/sections/BlogSection";
 import { ContactsSection } from "@/components/sections/ContactsSection";
@@ -13,7 +14,7 @@ export default function HomePage() {
   return (
     <>
       <Header />
-      <main className="min-h-screen">
+      <SectionSwiper>
         <HomeSection />
         <AboutSection />
         <ExperienceSection />
@@ -23,7 +24,7 @@ export default function HomePage() {
         <WritersSection />
         <BlogSection />
         <ContactsSection />
-      </main>
+      </SectionSwiper>
     </>
   );
 }

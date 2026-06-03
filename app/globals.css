@@ -42,4 +42,19 @@ body {
   .muted-text {
     @apply text-muted;
   }
+
+  .section-swiper .swiper-pagination {
+    right: 1.25rem;
+    left: auto;
+    width: auto;
+  }
+
+  .section-swiper .swiper-pagination-bullet {
+    background: #151515;
+    opacity: 0.25;
+  }
+
+  .section-swiper .swiper-pagination-bullet-active {
+    opacity: 1;
+  }
 }
