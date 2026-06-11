@@ -1,4 +1,5 @@
 import { Header } from "@/components/layout/Header";
+import { PageIntro } from "@/components/layout/PageIntro";
 import { SectionSwiper } from "@/components/layout/SectionSwiper";
 import { AboutSection } from "@/components/sections/AboutSection";
 import { BlogSection } from "@/components/sections/BlogSection";
@@ -13,6 +14,7 @@ import { WritersSection } from "@/components/sections/WritersSection";
 export default function HomePage() {
   return (
     <>
+      <PageIntro />
       <Header />
       <SectionSwiper>
         <HomeSection />
