@@ -6,7 +6,7 @@ export function ContactsSection() {
     <Section id="contacts" eyebrow="Contacts" title="如何聯係我">
       <div className="grid gap-8 lg:grid-cols-[1fr_1fr]">
         <p className="max-w-2xl text-xl leading-9 text-muted">
-          如果你想交流閱讀、寫作、Linux、Web 系統或只是隨便聊聊，可以從這些入口找到我。
+        關於我,不是很喜歡介紹自己,多少有點自賣自誇的原因,所以這裏貼幾個tag,「技术宅」「维基人」「manga愛好」「homelab」「Colemak-DH」「WebDev」「RSS」
         </p>
         <div className="divide-y divide-line rounded-3xl border border-line">
           {contacts.map((contact) => (
